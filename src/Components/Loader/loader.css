@@ -1,0 +1,10 @@
+.loader-title{
+    color: var(--color-7);
+    animation: scAnimate 3s linear 2s infinite alternate;
+}
+
+@keyframes scAnimate {
+    0%   {color:#fff; left:0px; top:0px;}
+    100%  {color:#8594d4; left:200px; top:200px;}
+  }
+  

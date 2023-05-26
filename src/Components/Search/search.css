@@ -1,0 +1,29 @@
+.search-result{
+    margin: 0.4rem 0;
+    padding: 0.4rem 1rem;
+    margin: 0.2rem;
+    box-sizing: border-box;
+    
+}
+.search-item-box{
+    display: flex;
+    align-items: center;
+}
+ .search-img{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right:0.3rem;
+    object-fit: cover;
+ }
+
+.profile-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.search-results{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+

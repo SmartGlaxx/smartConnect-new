@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+:root{
+    --background-color : #f4f4f4;
+    --background-color-2 : #ffffff;
+    --background-color-3 : #e7e7dd;
+    --background-color-4 : linear-gradient(to top, rgb(28, 30, 32), rgba(197, 197, 206, 0.3));
+    --background-color-5 : #163a5f;
+    --background-color-6 : #10375c;
+    --background-color-7 : #1d566e;
+    --background-color-8 : #335;
+    --background-color-9 : #243eb3;
+    /* --background-color-9b : #243eb3a8; */
+    --background-color-10 : rgb(213, 213, 226);
+    --background-color-11 : rgb(221, 221, 240);
+    --border-color  : rgb(30,40,50);
+    --border-color-2 : rgba(30, 40, 50, 0.527);
+    --box-border-radius: 0.5rem;
+    --btn-border-radius: 0.2rem;
+    --button-background : #a3a0a0;
+    --btn-height : 3rem;
+    --btn-margin : 0 0.2rem;
+    --btn-margin-2 : 0.3rem 0;
+    --btn-padding : 0.2rem 1rem;
+    --btn-padding-2 : 0.6rem 1.2rem;
+    --btn-padding-3 : 0.2rem 0.5rem;
+    --btn-padding-4 : 0.1rem 0.3rem;
+    --btn-padding-5 : 0.2rem 0rem;
+    --btn-font-size : 1rem;
+    --btn-font-size-2 : 0.8rem;
+    --btn-font-size-3 : 0.4rem;
+    --btn-font-weight : 600;
+    --color : #8899aa;
+    --color2 : #446;
+    --color3 : rgb(246, 246, 255);
+    --color4 : #335;
+    --color5 : #fff;
+    --color6 : #a09e22;
+    --color-7 : #243eb3;
+    /* --color-7 : #243eb3; */
+    --color-8 : #d6deff;
+    --color-auth-alt : #ffb0b0;
+    --color-alert : rgb(223, 5, 5);
+    --color-close : rgb(236, 39, 39);
+    --color-success : rgb(3, 145, 15);
+    --color-picture-icon : rgb(76, 189, 41);
+    --chat-padding : 0.5rem;
+    --chat-padding-2 : 0.8rem;
+    --chat-padding-3 : 0.5rem;
+    --chat-color-1 : rgb(213, 213, 226);
+    --chat-color-2 : rgb(221, 221, 240);
+    --chat-color-3 : rgba(213, 213, 226, 0.315);
+    --chat-color-4 : rgba(221, 221, 240, 0.349);
+    --chat-color-5 : rgba(161, 22, 64, 0.123);
+    /* --chat-color-5 : rgba(145, 34, 62, 0.192); */
+    --connections-fontsize : 0.7rem;
+    --error-background : rgba(230, 230, 230, 0.9);
+    --error-border: 1px solid #888;
+    --error-color : rgb(236, 39, 39);
+    --error-font-size : 1rem;
+    --error-width : 15rem;
+    --error-padding : 0.6rem;
+    --error-shadow :0.3px 0.7px 2.2px -9px rgba(0, 0, 0, 0.02),0.7px 1.7px 5.3px -9px rgba(0, 0, 0, 0.028),1.4px 3.1px 10px -9px rgba(0, 0, 0, 0.035),2.5px 5.6px 17.9px -9px rgba(0, 0, 0, 0.042),4.6px 10.4px 33.4px -9px rgba(0, 0, 0, 0.05),11px 25px 80px -9px rgba(0, 0, 0, 0.07);
+    --header-font-size : 1.2rem;
+    --header-font-size-2 : 1.1rem;
+    --header-font-size-3 : 1rem;
+    --header-font-size-4 : 0.9rem;
+    --header-font-size-5 : 0.8rem;
+    --header-section-padding: 0 1rem;
+    --icon-li-padding : 0.3rem 1rem;
+    --icon-li-padding2 : 0.6rem;
+    --icon-size1 : 1.8rem;
+    --icon-size2 : 1.2rem;
+    --icon-margin : 0 0.5rem;
+    --input-font-size : 1.15rem;
+    --input-margin : 0.5rem 0;
+    --input-padding : 1rem;
+    --input-padding2 : 0.5rem 2rem;
+    --input-padding3 : 0.4rem 1rem;
+    --input-padding4 : 0.5rem 0.2rem;
+    --input-padding5 : 0.3rem;
+    --logo-font-size : 1.4rem;
+    --page-padding : 2rem;
+    --page-title1 : 2rem;
+    --page-title2 : 1.5rem;
+    --preview-background : gray;
+    --preview-background : rgb(107, 107, 107);
+    --preview-background2 : rgba(128, 128, 128, 0.959);
+    --ad-background : rgba(124, 124, 177, 0.26);
+    /* --scrollbar-track : #c5c5c5; */
+    --scrollbar-track : #f4f4f4;
+    /* --scrollbar-thumb : #8899aa; */
+    --scrollbar-thumb : #606060;
+    --scrollbar-thumb-hover : #909090;
+    --section-margin : 1rem;
+    --section-padding : 1rem;
+    --section-padding-2 : 0.4rem;
+    /* --section-padding-3 : 1rem 0rem; */
+    --section-border-radius : 0.3rem;
+    --small-font1 : 0.8rem;
+    --warning-text : #cf2900;
+    --warning-text-2 :rgb(255, 55, 5);
+
+
+
+
+}
+
+body{
+    background : var(--background-color);
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0.8rem;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    height: 10px;
+    background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--scrollbar-thumb);
+    border-radius: 3rem;
+    border: 0.15rem solid var(--scrollbar-track);
+}
+
+/* ::-webkit-scrollbar-thumb:hover{
+    background: var(--scrollbar-thumb-hover);
+    border-radius: 3rem;
+} */
+

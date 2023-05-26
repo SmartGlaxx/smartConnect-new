@@ -1,0 +1,61 @@
+.connections-img-homepage{
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    margin: 0 0.7rem;
+}
+
+.connetions-box-homepage{
+    width: 100%;
+    margin: 0 0.2rem;
+    background: transparent;
+    border-radius: 4%;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.connetions-box-homepage:hover{
+    background: var(--background-color-9);
+    background: var(--border-color-2);
+    cursor: pointer;
+    border-radius: 2.5rem;
+    transition : all 0.5s
+}
+.connetions-box-homepage:hover .connections-name-homepage{
+    color : var(--color3);
+}
+
+.connections-name-homepage{
+    font-weight: 600;
+    text-transform: capitalize;
+    /* padding: 0.6rem 0.3rem; */
+    /* padding-bottom: 1rem; */
+    /* position: absolute; */
+    color:var(--color2);
+    /* top: 6.7rem; */
+    opacity: 0.8;
+    z-index: 2;
+    /* width: 5.5rem; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 0;
+    /* background: linear-gradient(to top, var(--color2), transparent); */
+}
+
+.link-homepage{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.connections-list-box{
+    width: 95%;
+    margin: 0 auto;
+}
+.connections-header{
+    color:var(--color2);
+    margin: 0.8rem 0;
+    margin-left: 0.5rem;
+}

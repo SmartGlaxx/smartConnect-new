@@ -1,0 +1,125 @@
+.errorpage{
+    display: flex;
+    padding: var(--page-padding);
+    height: 100vh;
+}
+.errorpage-left, .errorpage-right{
+    display: grid;
+    padding-top: var(--page-padding);
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+.errorpage-right{
+    /* background-color: var( --background-color-9 ); */
+    color: var(--color3);
+    display: grid;
+    place-content: center;
+}
+.errorpage-title{
+    font-size: 6rem;
+    color:var(--color3);
+    text-align: center;
+}
+.errorpage-subtitle{
+    font-size: 3rem;
+    color:var(--color3);
+    text-align: center;
+}
+.errorpage-options{
+    display: flex;
+    justify-content: space-around;
+}
+.errorpage-link{
+    text-decoration: none;
+}
+/* .input{
+    display: block;
+    margin: var(--input-margin);
+    padding: var(--input-padding2);
+    width: auto
+}
+.input:focus{
+    outline: none;
+}
+.title{
+    font-size: var(--page-title1);
+    color: var(--color);
+}
+.btn{
+    float:right;
+}
+.page-title{
+    text-align: center;
+    color: var(--color);
+}
+
+.errorNotice{
+    display: flex;
+    position: absolute;
+    border: var(--error-border);
+    font-size: var(--error-font-size);
+    top: 40%;
+    width: var(--error-width);
+    height: var(--error-height);
+    background: var(--error-background);
+    color: var(--error-color);
+    box-shadow: var(--error-shadow);
+    text-align: center;
+    padding: var(--error-padding);
+    justify-content: center;
+    align-items: center;
+}
+.forgot-password{
+    font-size: var(--small-font1);
+    color: var(--warning-text);
+    cursor: pointer;
+}
+
+.forgot-password:hover{
+    text-decoration-style: bold;
+}
+.signup{
+    font-size: var(--small-font1);
+}
+.errorNotice{
+    display: flex;
+    position: absolute;
+    border: var(--error-border);
+    font-size: var(--error-font-size);
+    top: 40%;
+    width: var(--error-width);
+    height: var(--error-height);
+    background: var(--error-background);
+    color: var(--error-color);
+    box-shadow: var(--error-shadow);
+    text-align: center;
+    padding: var(--error-padding);
+    justify-content: center;
+    align-items: center;
+}
+.auth-btns{
+    margin-top: 1rem;
+}
+.auth-login-btn1{
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--warning-text);
+    text-decoration: none;
+}
+.auth-login-btn2{
+    cursor: pointer;
+    float : right;
+    font-size: 1rem;
+    color: var(--warning-text);
+    text-decoration: none;
+} */
+
+@media screen and (max-width : 600px){
+    .errorpage-left{
+        height: auto
+    }
+    .errorpage-right{
+        height: 80vh
+    }
+}
